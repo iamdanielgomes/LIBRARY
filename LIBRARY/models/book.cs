@@ -5,15 +5,15 @@ namespace models
     public class book
     {   public int Id {get;}
         public string Name {get;set;}
-        public string Gender {get;set;}
+        public string Genre {get;set;}
         public string Author {get;set;}
         public int Pages {get;set;}
     }
-    public book (int id, string name, string gender, string author, int pages)
+    public book (int id, string name, string genre, string author, int pages)
     {
         Id = id;
         Name = name;
-        Gender = gender;
+        Genre = genre;
         Author = author;
         Pages = pages;
     }    
